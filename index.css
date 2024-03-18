@@ -1,0 +1,88 @@
+body {
+    padding: 5%;
+    background-color: rgb(110, 181, 165);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    background-color: #ffffff; /* Changed container background color */
+    border-radius: 20px; /* Added border radius for container */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Added box shadow for container */
+}
+
+.btn {
+    width: 80%;
+    text-align: center;
+    font-size: 4vw;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.btn1, .btn2 {
+    font-size: 3vw;
+    border-radius: 5px;
+    background-color: #2196F3;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn1:hover, .btn2:hover {
+    background-color: #0b7dda;
+}
+
+.btn3 {
+    border-radius: 14px;
+    font-size: 2.5vw;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background-color: #FF5722;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn3:hover {
+    background-color: #e64a19;
+}
+
+.h2 {
+    text-align: center;
+    font-size: 4vw;
+    margin-bottom: 20px; /* Added margin bottom for spacing */
+}
+
+.a {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; /* Increased margin for spacing */
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 5%; */
+    background: linear-gradient(to right, #4CAF50, #1e5f94); /* Gradient background */
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Box shadow */
+    color: #fff;
+    font-size: 6vw;
+    text-transform: uppercase; /* Uppercase text */
+}
