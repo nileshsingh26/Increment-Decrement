@@ -6,6 +6,4 @@ A small java_script project to increment and decrement by clicking on the button
 visit the work :  https://nileshsingh26.github.io/Increment-Decrement/
 
 contact : 30131csiot@gmail.com
-
-
-          satyamsinghrock2002@gmail.com
+  satyamsinghrock2002@gmail.com
